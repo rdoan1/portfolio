@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head><!--Raine Doan--><!--Period 5-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Raine's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: rgb(164, 208, 247);
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+      }
+      .col-md-4 {
+        background-color: rgb(177, 138, 215);
+      }
+      .careerstuff {
+        position: absolute;
+        bottom: 0px;
+        left: 460px;
+        width: 450px;
+        border: 2px solid rgb(107, 50, 160);
+      }
+      .mepic {
+        border-radius: 50%;
+        position: absolute;
+        left: 20px;
+        top:50px;
+        height: 350px;
+        border: 2px solid rgb(241, 247, 255);
+      }
+      #uni {
+        background-color: rgb(102, 142, 165);
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 450px;
+        border: 2px solid rgb(47, 134, 186)
+      }
+      .bio {
+        background-color: rgb(47, 134, 186);
+        width: 1000px;
+        height: 230px;
+        position: absolute;
+        left: 350px;
+        top: 70px;
+        font-size: 22px;
+        border: 2px solid rgb(13, 114, 174);
+      }
+      .heading {
+        position: absolute;
+        top: 400px;
+        left: 40px;
+      }
+      .hobbies {
+        background-color: rgb(13, 20, 57);
+        position: absolute;
+        top: 450px;
+        border: 2px solid rgb(47, 61, 101);
+      }
+      footer {
+        position: absolute;
+        top: 670px;
+        width: 1362px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container-fluid"><!--start-->
+      <nav><!--navbar-->
+        <div class="row bg-secondary-subtle">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home Page</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume/Universities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+          </ul>
+        </div><!--nav end-->
+      </nav><!--navbar end-->
+      <header><!--header start-->
+        <div class="heading">
+          <h1>Raine Doan</h1>
+        </div>
+      </header><!--header end-->
+      <main>
+        <div class="row"><!--start of row-->
+          <div class="col-md-6"><!--face image-->
+            <img class="mepic" src="media/me.jpg" alt="picture">
+          </div><!--face image end-->
+          <div class="col-md-6 rounded" id="uni">
+            <h2 class="text-center"><a class="nav-link" href="resume.html"><u>Universities</u></a></h2>
+            <p>The two universities I'm considering are:</p>
+            <ul class="list-group"><!--list-->
+              <li class="list-group-item bg-primary-subtle"><b>Northwestern University</b></li>
+              <li class="list-group-item bg-primary-subtle"><b>Northeastern University</b></li>
+            </ul><!--list end-->
+            <p>Both of these colleges are expectional and have a lower exceptance rate, implying how good of colleges they are. They also have classes that interest me, as I've been thinking about a job somewhere in the medical area.</p>
+          </div>
+        </div><!--end of row-->
+        <div class="row"><!--start of row-->
+          <div class="col-md-4 bio rounded">
+            <h2 class="text-center">About Me</h2><!--bio-->
+            <p>Hi, I'm Raine, a 15 year-old freshman at Lane Tech. I <b>love</b> to read, swim, and play and listen to music! I have a two brothers, <i>Liem</i> and <i>Joel</i> and my dog <i>Pepper</i>. I also play guitar and piano, and sing. Some of my <u>favorite foods</u> are sushi, pasta, and lobster. I also like H&M, dogs, candy, and Agatha Christie. My favorite novel written by Agatha Christie is <i>'And Then There Were None.'</i></p>
+          </div><!--bio end-->
+        </div><!--end of row-->
+      </main>
+      <aside>
+        <div class="row"><!--row start-->
+          <div class="col-md-4 hobbies rounded"><!--hobbies div-->
+            <h2 class="text-center text-white"><a class="nav-link" href="hobbies.html"><u>Hobbies</u></a></h2>
+            <p class="text-white">My hobbies include baking, playing guitar, piano, singing, reading, swimming, watching tv, playing with my dog, procrastinating, and listening to music. Some of my favorite artists are Taylor Swift, Ed Sheeran, and Ashe.</p>
+          </div><!--end hobbies div-->
+          <div class="col-md-4 careerstuff rounded">
+            <h2 class="text-center"><a class="nav-link" href="career.html"><u>Career</u></a></h2>
+            <p>I've always wanted to have a good job with a steady pay, so I figured I would have a job somewhere in the medical range. Obviously when I was younger I simply thought "doctor!", but now that I'm older I've begun to relize all of the other jobs that are so interesting and fulfilling. So I've started to notice <b>physical therapy</b>, which seems very interesting to me. </p>
+          </div>
+        </div><!--row end-->
+      </aside>
+      <footer class="row"><!--footer-->
+        <div class="card text-center col-md-12 bg-secondary-subtle border border-secondary">
+          <div class="card-header">
+            Web Development
+          </div>
+          <div class="card-body">
+            <p class="card-text">Semester 1 Final Project, <i>Raine Doan</i>, 12/19/23</p>
+          </div>
+        </div>
+      </footer><!--footer end-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </div><!--end-->
+  </body>
+</html>
